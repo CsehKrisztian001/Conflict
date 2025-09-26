@@ -4,6 +4,11 @@
     {
         private static void First()
         {
+            Second("Hello, World!");
+        }
+
+        private static void Second(string message)
+        {
             Console.WriteLine("Hello, World!");
         }
 
