@@ -2,19 +2,14 @@
 {
     internal class Program
     {
-        private static void First()
+        private static void First(string message)
         {
-            Second("Hello, World!");
-        }
-
-        private static void Second(string message)
-        {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(message);
         }
 
         static void Main(string[] args)
         {
-            First();
+            First("Hello, World!");
         }
     }
 }
