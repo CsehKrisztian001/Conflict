@@ -2,9 +2,14 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void First()
         {
             Console.WriteLine("Hello, World!");
+        }
+
+        static void Main(string[] args)
+        {
+            First();
         }
     }
 }
